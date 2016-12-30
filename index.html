@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <script src="angular.js"></script>
+    <script src="angular-sanitize.js"></script>
+    <script src="ng-fileupload.js"></script>
+    <script src="tv4.js"></script>
+    <script src="ObjectPath.js"></script>
+    <script src="schema-form.js"></script>
+    <script src="bootstrap-decorator.js"></script>
+    <script src="schema-form-file.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="sandy" ng-controller="testingController">
+<form id="largeform" name="ngForm" data-ng-submit="submitForm(ngForm,model)">
+    <div sf-schema="schema" sf-form="form" sf-model="model"></div>
+</form>
+</body>
+</html>

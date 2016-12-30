@@ -1,0 +1,5 @@
+<div id="fileDecorator">
+    <label ng-bind="form.title"></label>
+    <textarea ng-if="form.schema.pattern && form.schema.pattern.show === 'txt'" name="comment" ng-model="$$value$$"></textarea>
+    <input sf-field-model ng-model="$$value$$" read-file-data file-pattern="form.schema.pattern" type="file" name="files">
+</div>
